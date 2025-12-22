@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+   <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+        <nav>
+        <a href="tabla.html">Conceptos importantes</a> 
+        <a href="autor.html">Autor</a> 
+        <a href="bibliografia.html">Bibliografía</a> 
+        <a href="https://validator.w3.org/">VALIDADOR HTML W3C</a>
+        <a href="recursos.html">Recursos</a>
+        </nav>
+
+
+    <header class="subtitulo"> 
+        <h1>Buenas prácticas de maquetación</h1>
+        <img class="main_img" src="imgs/Maquetacion-HTML-web.jpg" alt="Ejemplos de maquetación" width="30%">
+        <h2>¿Cuáles son las mejores prácticas de maquetación?</h2>
+        <p>Guía básica sobre cómo estructurar correctamente una página web usando HTML5.</p>
+    </header>
+
+
+    <section class="intro">
+        <h2>Introducción</h2>
+        <p>La maquetación en HTML5 busca organizar el contenido de forma clara, accesible y semántica para facilitar la lectura por personas y navegadores.</p>
+    </section>
+
+    <section class="principios">
+        <h2>Principios clave</h2>
+        <ol>
+            <li>Usar etiquetas semánticas como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> y <code>&lt;footer&gt;</code>.</li>
+            <li>Mantener una estructura lógica y ordenada del documento.</li>
+            <li>Proveer textos alternativos para imágenes.</li>
+            <li>Usar encabezados en orden jerárquico: <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>.</li>
+            <li>Evitar el uso excesivo de <code>&lt;div&gt;</code> cuando exista una etiqueta más adecuada.</li>
+        </ol>
+    </section>
+
+    <section class="form">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>© Página 1 — Index</p>
+    </footer>
+
+</body>
+</html>

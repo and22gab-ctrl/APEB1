@@ -1,0 +1,207 @@
+body {
+    background-color:#57483b;
+    margin: 10px 25px 30px 80px;
+}
+section {
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+
+
+h1{
+    background-color: white;
+        font-size: 3.6em;
+    color: rgb(33, 68, 36);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 100px;
+}
+
+    nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+nav a{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(33, 68, 36);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a:hover{
+        background-color: #dfeee2;
+}
+.main_img{
+   width: 50%;
+   display: block;
+   margin: 0 auto;
+}
+
+
+.subtitulo h2{
+    padding: 1.3rem;
+    border-radius: 40px;
+    background-color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(33, 68, 36);
+}
+
+.subtitulo p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.5rem;
+font-weight: bold;
+color: #fff;
+text-align: center;
+}
+
+.intro h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.intro p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #fff;
+font-size: 1.2rem;
+font-weight: bold;
+}
+.principios h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.principios ol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.form{
+    padding: 5px;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+
+input, textarea {
+    width: 100%;
+}
+
+}
+.form button{
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(33, 68, 36);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+}
+
+/* SOBRE MI */
+.about h3{
+        background-color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+    color: rgb(33, 68, 36);
+    padding: 1.5rem;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.about p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.me{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+/* Conceptos importantes*/
+table {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden; 
+}
+
+thead {
+    background-color: rgb(33, 68, 36);
+    color: white;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 12px;
+    font-size: 1rem;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #dfeee2;
+}
+
+table, th, td {
+    border: none;
+}
+
+/*Recursos*/
+.separacion section{
+    
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 20px;
+}
+.list{
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.separacion h2{
+    color: rgb(33, 68, 36);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.separacion a{
+    color: #57483b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.separacion a:hover{
+    text-decoration: underline;
+}
+.separacion section:hover{
+    background-color: #dfeee2;
+}
