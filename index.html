@@ -4,25 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-        <nav>
-        <a href="tabla.html">Conceptos importantes</a> 
-        <a href="autor.html">Autor</a> 
-        <a href="bibliografia.html">Bibliografía</a> 
-        <a href="https://validator.w3.org/">VALIDADOR HTML W3C</a>
-        <a href="recursos.html">Recursos</a>
-        </nav>
-
+    <nav class="container my-3">
+    <div class="row justify-content-center text-center g-4 ">
+        <div class="col-12 col-md-2 col-lg-2"><a href="autor.html">Autor</a> </div> 
+        <div class="col-12 col-md-2 col-lg-2"><a href="tabla.html">Conceptos importantes</a></div>     
+        <div class ="col-12 col-md-2 col-lg-2"><a href="bibliografia.html">Bibliografía</a> </div>
+        <div class="col-12 col-md-2 col-lg-2"><a href="https://validator.w3.org/">VALIDADOR HTML W3C</a></div>
+        <div class="col-12 col-md-2 col-lg-2"><a href="recursos.html">Recursos</a></div>
+    </div>    
+    </nav>
 
     <header class="subtitulo"> 
         <h1>Buenas prácticas de maquetación</h1>
-        <img class="main_img" src="imgs/Maquetacion-HTML-web.jpg" alt="Ejemplos de maquetación" width="30%">
-        <h2>¿Cuáles son las mejores prácticas de maquetación?</h2>
+        <div class="carousel-wrap">
+            <div id="carouselExample" class="carousel slide my-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="imgs/img-2.png" class="d-block w-100" alt="distintas vistas responsivas">
+            </div>
+            <div class="carousel-item">
+            <img src="imgs/disposiciones.jpg" class="d-block w-100" alt="varios maquetados web">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+            </div>
+        </div>
         <p>Guía básica sobre cómo estructurar correctamente una página web usando HTML5.</p>
     </header>
+
 
 
     <section class="intro">
@@ -61,6 +82,6 @@
     <footer>
         <p>© Página 1 — Index</p>
     </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

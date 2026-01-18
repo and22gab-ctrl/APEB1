@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autor</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="estilos.css"> 
 </head>
 <body>
-    <nav>
-        <a href="tabla.html">Conceptos importantes</a> |
-        <a href="autor.html">Autor</a> |
-        <a href="bibliografia.html">Bibliografía</a> |
-        <a href="https://validator.w3.org/">VALIDADOR HTML W3C</a>
-        <a href="recursos.html">RECURSOS</a>
+    <nav class="container my-3">
+        <div class="row justify-content-center text-center g-4">
+        <div class="col-12 col-md-3 col-lg-2"><a href="index.html">Principal</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="tabla.html">Conceptos importantes</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="bibliografia.html">Bibliografía</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="https://validator.w3.org/">VALIDADOR HTML W3C</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="recursos.html">RECURSOS</a></div>
+        </div>
     </nav>
-    <header>
+    <header class="yo">
         <h1><strong>SOBRE MÍ</strong></h1>
         <h2>Un pequeño texto sobre quién soy</h2>
     </header>
@@ -24,11 +27,20 @@
         <p>Mi nombre es <strong>Gabriel Andrade</strong>, tengo 19 años de Edad, oriundo de la ciudad de Ibarra y con el sueño de llegar a ser un gran profesional, me esfuerzo siempre por aprender nuevas cosas</p>
         <p>Me apasiona mucho mi carrera, los videojuegos y las artes marciales mixtas, espero en un futuro abrir una empresa de desarrollo con mis amigos y tener estabilidad económica</p>
     </section>
-<footer>
-    <h5>Sígueme en mis redes sociales</h5>
-<nav>
-    <a href="https://www.facebook.com/gaboandrade2"><strong>FACEBOOK</strong></a> | <a href="https://www.instagram.com/gab_3_and/"> <strong>INSTAGRAM</strong></a>
-</nav>
+<footer class="mt-5">
+        <h5 class="follow">Sígueme en mis redes sociales</h5>
+    <div class="container">
+        <div class="row justify-content-center g-3 mt-3">
+            <div class="col-12 col-md-4">
+                <a class="btn-social facebook" href="https://www.facebook.com/gaboandrade2">FACEBOOK</a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a class="btn-social instagram" href="https://www.instagram.com/gab_3_and/">INSTAGRAM</a>
+            </div>
+        </div>
+          <p class="mb-0">© Página 2 — Autor</p>
+    </div>
+</footer>
 </footer>
 </body>
 </html>

@@ -1,26 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliografía</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <nav>
-        <a href="tabla.html">Conceptos importantes</a> 
-        <a href="autor.html">Autor</a> 
-        <a href="bibliografia.html">Bibliografía</a> 
-        <a href="https://validator.w3.org/">VALIDADOR HTML W3C</a>
-        <a href="recursos.html">Recursos</a>
-    </nav>
-    <header>
-        <h1>Bibliografía</h1>
-    </header>
-<ol>
-    <li>Iryne Vanessa Somera. (2021-09-02). Las Mejores Prácticas de HTML para Construir Sitios Web Sostenibles y Escalables. https://www.facebook.com/kinsta.es/. Retrieved from <a href="https://kinsta.com/es/blog/mejores-practicas-html/"> Pulse aquí para ingresar</a> Accessed on: 2025-12-01</li>
-    <li>World Wide Web Consortium. (2014). HTML5: A vocabulary and associated APIs for HTML and XHTML. W3C. <a href="https://www.w3.org/TR/html5/"> Pulse aquí para ingresar</a></li>
-</ol>
+
+<nav class="container my-3">
+    <div class="row justify-content-center text-center g-4">
+        <div class="col-12 col-md-3 col-lg-2"><a href="index.html">Principal</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="autor.html">Autor</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="tabla.html">Conceptos importantes</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="https://validator.w3.org/">Validador W3C</a></div>
+        <div class="col-12 col-md-3 col-lg-2"><a href="recursos.html">Recursos</a></div>
+    </div>
+</nav>
+
+<header>
+    <h1>Bibliografía</h1>
+</header>
+
+<main class="container my-5">
+    <section aria-labelledby="titulo-bibliografia">
+        <h2 id="titulo-bibliografia" class="text-center mb-4">Fuentes consultadas</h2>
+
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item">
+                Somera, I. V. (2021, 2 de septiembre). 
+                <em>Las mejores prácticas de HTML para construir sitios web sostenibles y escalables</em>. 
+                Kinsta. 
+                <a href="https://kinsta.com/es/blog/mejores-practicas-html/" target="_blank" rel="noopener">
+                    Consultar recurso
+                </a>.
+                <br>
+            </li>
+
+            <li class="list-group-item">
+                World Wide Web Consortium. (2014). 
+                <em>HTML5: A vocabulary and associated APIs for HTML and XHTML</em>. W3C.
+                <a href="https://www.w3.org/TR/html5/" target="_blank" rel="noopener">
+                    Consultar recurso
+                </a>.
+            </li>
+
+            <li class="list-group-item">
+                Mark Otto, Jacob Thornton, and Bootstrap contributors.
+                <em>Bootstrap · The most popular HTML, CSS, and JS library in the world...</em>.
+                <a href="https://getbootstrap.com/" target="_blank" rel="noopener">
+                    Consultar recurso
+                </a>.
+            </li>
+        </ol>
+    </section>
+</main>
+
+<footer class="text-center py-4">
+    <p class="mb-0">© Página 3 - Bibliografía</p>
+</footer>
 
 </body>
 </html>
